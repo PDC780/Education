@@ -5,13 +5,8 @@
     <title>Кроссы — и точка</title>
     <link rel="stylesheet" href="style.css"/>
   </head>
-  <!-- обращение 
-    я не до конца понял как правильно сделать header и footer.
-    у меня возникло очень много трудностей с ними и уже
-    закончились силы выяснять где мои ошибки и исправлять их.
-  -->
   <body>
-    <header class="w">
+    <header class="container__header">
     <div class="container__header">
       <div class = 'container__logo'> 
         <a href=""><img src="img/logo.png" alt=""></a>
@@ -25,10 +20,10 @@
       </nav>
     </div>
     </header>
-
+    <div class="line__top"></div>
     <main class="container__main">
-      <h2 class="container__header">Коллекция. {октябрь:2023}</h2>
-
+      <h2 class="h2">Коллекция. {октябрь:2023}</h2>
+      <div class="cards">
       <div class="container">
         <img alt="Nike Air Max Plus" src="img/1.png"/>
         <h3>Nike Air Max Plus</h3>
@@ -82,21 +77,21 @@
         <h3>adidas Yeezy Foam RNR</h3>
         <p>Desert Sand</p>
       </div>
-
+    </div>
     </main>
     <footer class = 'footer__class'>
       <div class="footer__top">
         <div class = 'footer__png'><img src = 'img/logo-footer.png'></div>
         
         <div class = 'container__nav'>
-          <ul><li><a href="" class = 'social__seti'>💬 TG</a></li></ul>
-          <ul><li><a href="" class = 'social__seti'>😊 VK</a></li></ul>
-          <ul><li><a href="" class = 'social__seti'>📺 YouTube</a></li></ul>
+          <ul><li><a href="" class = 'social__footer'>💬 TG</a></li></ul>
+          <ul><li><a href="" class = 'social__footer'>😊 VK</a></li></ul>
+          <ul><li><a href="" class = 'social__footer'>📺 YouTube</a></li></ul>
         </div>
       </div>
 
 
-      <div>
+      <div class = 'b'>
         <div class="line"></div>
       </div>
       <div class = 'footer__bottom'>КРОССЫ И ТОЧКА ® 2023</div>
