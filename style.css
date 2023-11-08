@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 56px;
+}
+
+h2 {
+  display: flex;
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 48px;
+  gap: 24px;
+  width: 767px;
+
+}
+.container__header{
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  padding: 30.2 0 16.6 143px
+}
+.container__logo{
+  display: flex;
+}
+.container__nav{
+  display: block;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  justify-content: space-between;
+}
+.social__header{
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  gap: 24px;
+  color: black;
+}
+/* кончаются стили для хэдэра */
+.container__main{
+  background-color: #F1F1F1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.w{
+  max-width: 1160px;
+  align-items: center;
+  /* margin: 30.2 0 16.6 143px; */
+}
+.container {
+	margin: 15px;
+  width: 371px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  height: fit-content;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 26px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 14px;
+}
+
+img {
+	width: 370px;
+}
+.footer__class{
+  width: 100%;
+  background-color: #121723;
+  height: 142px;
+
+}
+.footer__top{
+  display: flex;
+  justify-content: space-between;
+}
+.footer__png{
+display: flex;
+}
+.nav{
+  display: flex;
+  color:#FFFFFF;
+}
+.social__footer{
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  gap: 24px;
+  color: rgb(255, 255, 255);
+  /* max-width: 1160px; */
+}
+.footer__bottom{
+  display: flex;
+  color: #A1A6B4;
+  gap: 24px;
+  justify-content: center;
+}
+
+.line{
+  display: flex;
+  margin: 0;
+  border: 1px solid beige;
+  opacity: 0.5;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
